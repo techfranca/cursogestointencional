@@ -58,7 +58,7 @@ export function LoginScreen() {
   }
 
   return (
-    <div className="min-h-screen bg-[oklch(0.22_0.02_55)] flex items-center justify-center p-4">
+    <div className="h-dvh overflow-hidden bg-[oklch(0.22_0.02_55)] flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="w-16 h-16 mx-auto mb-4 rounded-full border-2 border-[oklch(0.72_0.1_80)] flex items-center justify-center">
@@ -94,7 +94,7 @@ export function LoginScreen() {
                 value={nome}
                 onChange={(e) => setNome(e.target.value)}
                 placeholder="Digite seu nome e sobrenome"
-                className="w-full bg-[oklch(0.99_0.005_70)] border border-[oklch(0.87_0.02_70)] rounded-sm px-4 py-3 font-sans text-sm text-[oklch(0.22_0.02_55)] placeholder:text-[oklch(0.7_0.02_55)] focus:outline-none focus:border-[oklch(0.48_0.09_42)] transition-colors"
+                className="w-full bg-[oklch(0.99_0.005_70)] border border-[oklch(0.87_0.02_70)] rounded-sm px-4 py-3 font-sans text-base sm:text-sm text-[oklch(0.22_0.02_55)] placeholder:text-[oklch(0.7_0.02_55)] focus:outline-none focus:border-[oklch(0.48_0.09_42)] transition-colors"
                 disabled={isSubmitting}
               />
             </div>
@@ -112,7 +112,7 @@ export function LoginScreen() {
                 value={telefone}
                 onChange={handlePhoneChange}
                 placeholder="(00) 00000-0000"
-                className="w-full bg-[oklch(0.99_0.005_70)] border border-[oklch(0.87_0.02_70)] rounded-sm px-4 py-3 font-sans text-sm text-[oklch(0.22_0.02_55)] placeholder:text-[oklch(0.7_0.02_55)] focus:outline-none focus:border-[oklch(0.48_0.09_42)] transition-colors"
+                className="w-full bg-[oklch(0.99_0.005_70)] border border-[oklch(0.87_0.02_70)] rounded-sm px-4 py-3 font-sans text-base sm:text-sm text-[oklch(0.22_0.02_55)] placeholder:text-[oklch(0.7_0.02_55)] focus:outline-none focus:border-[oklch(0.48_0.09_42)] transition-colors"
                 disabled={isSubmitting}
               />
             </div>
