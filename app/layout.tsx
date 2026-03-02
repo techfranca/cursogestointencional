@@ -20,15 +20,18 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Jornada de 15 Dias — Conexão Conjugal',
   description: 'Material de apoio para fortalecer o vínculo conjugal com atividades diárias, reflexões e questionário de percepção.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
         url: '/icon-light-32x32.png',
+        sizes: '32x32',
+        type: 'image/png',
         media: '(prefers-color-scheme: light)',
       },
       {
         url: '/icon-dark-32x32.png',
+        sizes: '32x32',
+        type: 'image/png',
         media: '(prefers-color-scheme: dark)',
       },
       {
@@ -36,6 +39,7 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
+    shortcut: '/icon-light-32x32.png',
     apple: '/apple-icon.png',
   },
 }
